@@ -1,0 +1,235 @@
+header {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    margin: 0 auto;
+    border-bottom: solid #ccc 2px;
+}
+
+body {
+    height:100%;
+    margin:0; /*used for sticky footer*/
+}
+
+.background {
+    background-image: url(../images/connectwork.png);
+    background-image: no-repeat;
+    padding: 20px 0 85px;
+    margin: 0 auto -50px; /*stick footer*/
+    min-height:100%; /*stick footer*/
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    padding:20px;
+    width:150px;
+    text-align: center;
+}
+
+h2 {
+    color:#4aaaa5;
+    font-weight:bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    padding:10px;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.top {
+    max-width:960px;
+    margin: 0 auto;
+}
+
+.name {
+    float: left;
+   
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:lighter;
+    float:right;
+}
+.nav {
+    position:relative;
+    top: 20px;
+    margin: 30px;
+    padding:30px;
+}
+
+.nav a {
+    color: #4aaaa5;
+}
+.container {
+    max-width:960px;
+    margin: 0px auto;
+    background-color: white;
+    border: solid #ddd 1px;
+}
+.bio-pic {
+    float:left;
+    width:200px;
+    height: 200px;
+    margin-right:20px;
+    padding-bottom: 40px;
+    padding-left:20px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+    
+footer {
+    background-color: #666666;
+    border:1px;
+    clear:both;
+    border-top: 8px solid #4aaaa5;
+    text-align:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+   
+}
+
+.copyright {
+    font-size: 10px;
+    color:white;
+}
+
+
+/*contact styling*/
+
+.input {
+    width: 955px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    margin-top:10px;
+    margin-bottom:10px;
+    text-indent:5px;
+
+
+} 
+
+textarea {
+    width: 50%;
+    border: 1px solid #777777;
+    height:200px;
+    text-indent:5px;
+    padding:12px;
+    margin-top:6px;
+    margin-bottom:16px;
+    margin-left:2.5px;
+    box-sizing: border-box;
+    resize: vertical;
+
+}
+
+.submit {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 18px;
+    margin: 10px;
+    border: 1px solid #777777;
+    
+}
+
+label {
+    font-family:Arial, Helvetica, sans-serif;
+    width:955px;
+    margin-left:5px;
+    
+}
+
+/* Portfolio */
+
+.cap {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #4aaaa5;
+    color: #fff;
+    text-align: center;
+    width:260px;
+    padding: 20px;
+  
+    
+    
+    
+}
+
+.portfolio {
+    max-width:281px;
+    float:left;
+    padding:40px;
+    
+    
+}
+
+img {
+
+ width:300px;
+ height:300px;
+}
+
+.hangimg {
+    position:relative;
+    margin-top:80px;
+}
+
+.hangman {
+    position:absolute;
+    bottom:80px;
+}
+
+.rpgimg {
+    position:relative;
+    margin-top:80px;
+}
+
+.rpg {
+    position:absolute;
+    bottom:80px;
+}
+ 
+.triviaimg {
+    position:relative;
+  
+}
+
+.trivia {
+    position:absolute;
+    bottom:-300px;
+}
+
+.rutgersimg {
+    position:relative;
+  
+}
+
+.rutgers {
+    position:absolute;
+    bottom:-300px;
+}
+
+.rockimg {
+    position:relative;
+  
+}
+
+.rock {
+    position:absolute;
+    bottom:-685px;
+}
